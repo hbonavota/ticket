@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+  margin: 5px 5px 5px 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ticket {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-color: #f98a04;
+}
+
+.header-title {
+  color: white;
+  font-size: 35px;
+}
+
+.barcode {
+  position: absolute;
+  width: 90px;
+  margin: 80px 20px;
+}
+
+.qr {
+  position: absolute;
+  width: 10%;
+  margin: 210px 80% 50%;
+}
+
+.logo {
+  position: absolute;
+  width: 11%;
+  margin: 25px 80% 50%;
+}
+
+.ticket-box {
+  margin-top: 8px;
+  border: 12px solid #f98a04;
+  height: 420px;
+  display: flex;
+}
+
+.ticket-box-title {
+  color: #f98a04;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px 120px;
+}
+
+.ticket-box-inside {
+  border: 10px solid #f98a04;
+  width: 65%;
+  height: 300px;
+  display: table;
+  position: absolute;
+  margin: 100px 135px;
+  justify-content:space-between;
+  font-weight: bold;
+
+}  
+
+.gorilla {
+  margin: 0px -5px;
+  height: 391px;
+}
+
+.ticket-box-inside-text {
+  margin: 8px 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}  
+
+.ticket-box-info-title {
+  color: #a1c71b;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ticket-box-info-secondary {
+  font-size: 20px;
+  color: #a1c71b;
+  font-weight: bold;
+}
+
+.ticket-box-info-primary {
+  font-size: 20px;
+  color: #f98a04;
+  font-weight: bold;
+}
+
+.club-amigos {
+  width: 100%;
+}
+
+.footer-legal-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-legal {
+  font-size: 10px;
+}
+
